@@ -20,28 +20,22 @@ This repository contains the code and analysis used in order to determined the *
 
 ## 📖 Overview
 
-This workflow was designed to analyze Whole Exome Sequencing (WES) data from a family with a child affected by congenital myopathy. The analysis done in Rstudio includes: data import, variant filt[...]
+This workflow was designed to analyze Whole Exome Sequencing (WES) data from a family with a child affected by congenital myopathy. The analysis done in Rstudio includes: data import, variant filtering and trio-based analysis segregation, candidate variant prioritization based on autosomal recessive, de novo autosomal dominant, compound heterozygous, and hemizygous inheritance models Candidate variants were further evaluated using population and disease databases.
 
 ## 📂 Repository Structure
 
 
-CODES/                                                              # Source code for analysis
+**CODES/**
+- [`Variant_filtering.Rmd`](CODES/Variant_filtering.Rmd) # R Markdown file containing variant filtering procedures and trio analysis segregation analysis
+- [`Variant_filtering.nb.html`](CODES/Variant_filtering.nb.html) # HTML notebook version for easy viewing in browser
+- [`Candidate_variants.Rmd`](CODES/Candidate_variants.Rmd) # R Markdown file with candidate variants annotation and database information
+- [`Candidate_variants.nb.html`](CODES/Candidate_variants.nb.html) # HTML notebook version for easy viewing in browser
 
-  [Variant_filtering.Rmd`](CODES/Variant_filtering.Rmd)           # Includes variant filtering, and trio analysis segregation
+**IMAGES/**
+- `Family_pedigree_prior_to_molecular_diagnosis/` # Pedigree chart showing family structure before molecular findings
+- `Family_pedigree_annotated_with_PAX7_genotypes/` # Annotated pedigree showing PAX7 genotypes for family members
   
-  Variant_filtering.nb.html                                       # HTML file of Variant_filtering.Rmd
-  
-  Candidate_variants.Rmd                                          # Includes candidate variants information from databases
-  
-  Candidate_variants.nb.html                                      # HTML file of Candidate_variants.Rmd
-  
-IMAGES/                                                             # Pedigree images before and after variant identification
-
-  Family_pedigree_prior_to_molecular_diagnosis                    # Pedigree given
-  
-  Family_pedigree_annotated_with_PAX7_genotypes                   # Pedigree after *PAX7* variant identification 
-  
-README.md                                                           # This documentation file
+**README.md**                                                           # This documentation file
 
 
 ## 💻 Prerequisites & Environment Setup
@@ -57,7 +51,7 @@ To ensure reproducibility of the statistical and computational analyses, we reco
 ## ✉️ Citation & Contact
 If you use the code, pipelines, or processed data from this repository, please don't forget to cite this work:
 
-Barrientos-González, D., & Gonzaga-Jauregui, C. (2026). Family Exome Analysis Identifies a Rare Recessive PAX7 Variant Underlying Congenital Myopathy. Naturee, https://doi.org/10.1012/s00112-006-[...]
+Barrientos-González, D., & Gonzaga-Jauregui, C. (2026). Family Exome Analysis Identifies a Rare Recessive PAX7 Variant Underlying Congenital Myopathy. Naturee, [https://doi.org/10.1012/s00112-006-[...]](https://doi.org/10.1012/s00112-006-12012-06)
 
 For questions regarding the code or bugs, please contact:
 - Diana Barrientos - diana.barrientos.glz@gmail.com

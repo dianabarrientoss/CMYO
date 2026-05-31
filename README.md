@@ -6,7 +6,7 @@ Author: Diana Barrientos
 
 DOI: https://doi.org/10.1012/s00112-006-12012-06
 
-This repository contains the code, pipelines and images to reproduce the analysis presented in the article.
+This repository contains the code and analysis used in order to determined the *PAX7* variant of a child affected by congenital miophaty
 
 ---
 

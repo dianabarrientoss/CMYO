@@ -1,5 +1,9 @@
 # Family Exome Analysis Identifies a Rare Recessive PAX7 Variant Underlying Congenital Myopathy
 
+Release date: 01-06-2026
+
+Author: Diana Barrientos
+
 DOI: https://doi.org/10.1012/s00112-006-12012-06
 
 This repository contains the code, pipelines and images to reproduce the analysis presented in the article.
@@ -33,13 +37,20 @@ This workflow was designed to analyze Whole Exome Sequencing (WES) data from a f
 
 To ensure reproducibility of the statistical and computational analyses, we recommend using the following software:
 
+```
 - Rstudio (version 2026.1.1.403)
 - R (version 4.5.3), with the following packages:
   - readxl (version 1.4.5)
+```
 
 ## ✉️ Citation & Contact
-If you use the code, pipelines, or processed data from this repository, please cite our work:
-...
+If you use the code, pipelines, or processed data from this repository, please don't forget to cite this work:
+
+Barrientos-González, D., & Gonzaga-Jauregui, D. (2026). Family Exome Analysis Identifies a Rare Recessive PAX7 Variant Underlying Congenital Myopathy. Naturee, https://doi.org/10.1012/s00112-006-12012-06
 
 For questions regarding the code or bugs, please contact:
 - Diana Barrientos - [diana.barrientos.glz@gmail.com]
+
+## ❗Note
+
+This work was done as a final project for the Human Genetics and Genomics course from the Bachelor’s Degree in Genomic Sciences at UNAM.

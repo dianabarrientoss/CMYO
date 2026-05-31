@@ -24,7 +24,7 @@ This workflow was designed to analyze Whole Exome Sequencing (WES) data from a f
 
 ## 📂 Repository Structure
 
-```text
+
 ├── CODES/                                                              # Source code for analysis
 │   ├── [Variant_filtering.Rmd`](CODES/Variant_filtering.Rmd)           # Includes variant filtering, and trio analysis segregation
 │   ├── Variant_filtering.nb.html                                       # HTML file of Variant_filtering.Rmd
@@ -34,7 +34,7 @@ This workflow was designed to analyze Whole Exome Sequencing (WES) data from a f
 │   ├── Family_pedigree_prior_to_molecular_diagnosis                    # Pedigree given
 │   ├── Family_pedigree_annotated_with_PAX7_genotypes                   # Pedigree after *PAX7* variant identification 
 └── README.md                                                           # This documentation file
-```
+
 
 ## 💻 Prerequisites & Environment Setup
 

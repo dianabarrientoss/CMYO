@@ -22,8 +22,6 @@ This repository contains the code and analysis used in order to determined the *
 
 This workflow was designed to analyze Whole Exome Sequencing (WES) data from a family with a child affected by congenital myopathy. The analysis done in Rstudio includes: data import, variant filtering, trio analysis and segregation based on autosomal recessive, de novo autosomal dominant, compound heterozygous, and hemizygous inheritance models. Candidate variants were further evaluated using population and disease databases.
 
----
-
 ## 📂 Repository Structure
 
 ```text

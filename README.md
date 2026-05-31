@@ -32,8 +32,8 @@ This workflow was designed to analyze Whole Exome Sequencing (WES) data from a f
 - [`Candidate_variants.nb.html`](CODES/Candidate_variants.nb.html) # HTML notebook version for easy viewing in browser
 
 **IMAGES/**
-- [`Family_pedigree_prior_to_molecular_diagnosis/`](IMAGES/Family_pedigree_prior_to_molecular_diagnosis/) # Pedigree chart showing family structure before molecular findings
-- [`Family_pedigree_annotated_with_PAX7_genotypes/`](IMAGES/Family_pedigree_annotated_with_PAX7_genotypes/) # Annotated pedigree showing PAX7 genotypes for family members
+- [`Family_pedigree_prior_to_molecular_diagnosis/`](IMAGES/Family_pedigree_prior_to_molecular_diagnosis.jpeg/) # Pedigree chart showing family structure before molecular findings
+- [`Family_pedigree_annotated_with_PAX7_genotypes/`](IMAGES/Family_pedigree_annotated_with_PAX7_genotypes.jpeg/) # Annotated pedigree showing PAX7 genotypes for family members
   
 **README.md**                                                           # This documentation file
 

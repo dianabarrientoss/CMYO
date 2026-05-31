@@ -24,7 +24,7 @@ This workflow was designed to analyze Whole Exome Sequencing (WES) data from a f
 
 ## 📂 Repository Structure
 
-```text
+
 ├── CODES/                                                               # Source code for analysis
 │   ├── [Variant_filtering.Rmd](CODES/Variant_filtering.Rmd)            # Includes variant filtering, and trio analysis segregation
 │   ├── [Variant_filtering.nb.html](CODES/Variant_filtering.nb.html)    # HTML file of Variant_filtering.Rmd
@@ -34,7 +34,7 @@ This workflow was designed to analyze Whole Exome Sequencing (WES) data from a f
 │   ├── [Family_pedigree_prior_to_molecular_diagnosis](IMAGES/Family_pedigree_prior_to_molecular_diagnosis)     # Pedigree given
 │   ├── [Family_pedigree_annotated_with_PAX7_genotypes](IMAGES/Family_pedigree_annotated_with_PAX7_genotypes)   # Pedigree after *PAX7* variant identification 
 └── [README.md](README.md)                                  # This documentation file
-```
+
 ## 💻 Prerequisites & Environment Setup
 
 To ensure reproducibility of the statistical and computational analyses, we recommend using the following software:
@@ -48,7 +48,7 @@ To ensure reproducibility of the statistical and computational analyses, we reco
 ## ✉️ Citation & Contact
 If you use the code, pipelines, or processed data from this repository, please don't forget to cite this work:
 
-Barrientos-González, D., & Gonzaga-Jauregui, D. (2026). Family Exome Analysis Identifies a Rare Recessive PAX7 Variant Underlying Congenital Myopathy. Naturee, https://doi.org/10.1012/s00112-006-[...]
+Barrientos-González, D., & Gonzaga-Jauregui, C. (2026). Family Exome Analysis Identifies a Rare Recessive PAX7 Variant Underlying Congenital Myopathy. Naturee, https://doi.org/10.1012/s00112-006--12012-06
 
 For questions regarding the code or bugs, please contact:
 - Diana Barrientos - [diana.barrientos.glz@gmail.com]

@@ -32,7 +32,8 @@ This workflow was designed to analyze Whole Exome Sequencing (WES) data from a f
 - [`Candidate_variants.nb.html`](CODES/Candidate_variants.nb.html) # HTML notebook version for easy viewing in browser
 
 **IMAGES/**
-- [`Family_pedigree_prior_to_molecular_diagnosis/`](IMAGES/Family_pedigree_prior_to_molecular_diagnosis.jpeg/) # Pedigree chart showing family structure before molecular findings
+- [`Fig.1/`](IMAGES/Fig.1.png/) # X-ray evaluations by Garavelli et al. (2016)
+- [`Fig.2/`](IMAGES/Fig.2.jpeg/) # Pedigree chart showing family structure before molecular findings
   
 **README.md**                                                           # This documentation file
 

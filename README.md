@@ -1,4 +1,4 @@
-# Family Exome Analysis Identifies a Rare Recessive PAX7 Variant Underlying Congenital Myopathy
+# Identification of a De Novo SMAD4 Deletion Through Family Exome Sequencing in Myhre Syndrome
 
 Release date: 01-06-2026
 
@@ -6,7 +6,7 @@ Author: Diana Barrientos
 
 DOI: https://doi.org/10.1012/s00112-006-12012-06
 
-This repository contains the code and analysis used in order to determined the *PAX7* variant of a child affected by congenital miophaty
+This repository contains the code and analysis used in order to determined the *SMAD4* variant of a child affected by MYHRE SYNDROME; MYHRS
 
 ---
 
@@ -20,7 +20,7 @@ This repository contains the code and analysis used in order to determined the *
 
 ## 📖 Overview
 
-This workflow was designed to analyze Whole Exome Sequencing (WES) data from a family with a child affected by congenital myopathy. The analysis done in Rstudio includes: data import, variant filtering and trio-based analysis segregation, candidate variant prioritization based on autosomal recessive, de novo autosomal dominant, compound heterozygous, and hemizygous inheritance models Candidate variants were further evaluated using population and disease databases.
+This workflow was designed to analyze Whole Exome Sequencing (WES) data from a family with a child affected by MYHRE SYNDROME; MYHRS. The analysis done in Rstudio includes: data import, variant filtering and trio-based analysis segregation, candidate variant prioritization based on autosomal recessive, de novo autosomal dominant, compound heterozygous, and hemizygous inheritance models. Candidate variants were further evaluated using population and disease databases.
 
 ## 📂 Repository Structure
 
@@ -33,7 +33,6 @@ This workflow was designed to analyze Whole Exome Sequencing (WES) data from a f
 
 **IMAGES/**
 - [`Family_pedigree_prior_to_molecular_diagnosis/`](IMAGES/Family_pedigree_prior_to_molecular_diagnosis.jpeg/) # Pedigree chart showing family structure before molecular findings
-- [`Family_pedigree_annotated_with_PAX7_genotypes/`](IMAGES/Family_pedigree_annotated_with_PAX7_genotypes.jpeg/) # Annotated pedigree showing PAX7 genotypes for family members
   
 **README.md**                                                           # This documentation file
 
